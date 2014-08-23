@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>株式会社エービック</title>
+<link rel="stylesheet" href="css/import.css" type="text/css" media="screen">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://www.gstatic.com/swiffy/v6.0/runtime.js"></script>
+<script src="script/swfobject.js"></script>
+<style>html, body {width: 100%; height: 100%}</style>
+<script>
+		$(function() {
+			var url = window.location.pathname;
+			$('#navi li a[href="'+url+'"]').parent().addClass('current');
+		});
+</script>
+
+</head>
+
+<body style="margin: 0; overflow: hidden">
+<div id="Header">
+<h1><a href="/"><img src="images/logo.jpg" width="139" height="88" alt="株式会社エービック" /></a></h1>
+
+<ul id="navi">
+<li><a href="/service/">サークルアド</a></li>
+<li><a href="/company/">会社紹介</a></li>
+<li><a href="/inquiry/">お問い合わせ</a></li>
+</ul>
+
+</div><!-- Header end -->
+
+
+<h2 id="main_title">サークルアド</h2>
+<div id="MainVisual">
+<div id="swiffycontainer">
+</div>
+<script>
+      var stage = new swiffy.Stage(document.getElementById('swiffycontainer'),
+                                   swiffyobject);
+      stage.start();
+</script>
+</div><!-- MainVisual end -->
+
+<div id="News">
+<h3>最新情報</h3>
+<ul>
+<li><span class="date">2014年6月15日</span><span class="headline"><a href="http://test.a-bihc.com/news/" target="_blank">ホームページを公開いたしました</a></span></li>
+</ul>
+</div><!-- News end -->
+
+<div class="ninja_onebutton">
+<script type="text/javascript">
+//<![CDATA[
+(function(d){
+if(typeof(window.NINJA_CO_JP_ONETAG_BUTTON_a31e1dd739dbe1b6d799572a627e2308)=='undefined'){
+    document.write("<sc"+"ript type='text\/javascript' src='http:\/\/omt.shinobi.jp\/b\/a31e1dd739dbe1b6d799572a627e2308'><\/sc"+"ript>");
+}else{ 
+    window.NINJA_CO_JP_ONETAG_BUTTON_a31e1dd739dbe1b6d799572a627e2308.ONETAGButton_Load();}
+})(document);
+//]]>
+</script><span class="ninja_onebutton_hidden" style="display:none;"></span><span style="display:none;" class="ninja_onebutton_hidden"></span>
+</div>
+<!-- ninja_onebutton end -->
+
+<div id="Footer">
+Copyright &copy;  Abihc 2014
+</div><!-- Footer end -->
+
+</body>
+</html>
